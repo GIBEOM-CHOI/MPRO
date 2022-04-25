@@ -115,12 +115,12 @@ public class AdminController extends HttpServlet {
 				String password = request.getParameter("pw");
 				String tel = request.getParameter("tel");
 				String address = request.getParameter("address");
-				String[] birth = request.getParameterValues("birth");
-				String birthIn = birth[0] + "-" + birth[1] + "-" + birth[2];
-				Date births =  Date.valueOf(birthIn);
+//				String[] birth = request.getParameterValues("birth");
+//				String birthIn = birth[0] + "-" + birth[1] + "-" + birth[2];
+//				Date births =  Date.valueOf(birthIn);
 				String com_name = request.getParameter("com_name");
-				String[] cr_no_arr = request.getParameterValues("cr_no");
-				String cr_no = cr_no_arr[0] + "-" + cr_no_arr[1] + "-" + cr_no_arr[2];
+//				String[] cr_no_arr = request.getParameterValues("cr_no");
+//				String cr_no = cr_no_arr[0] + "-" + cr_no_arr[1] + "-" + cr_no_arr[2];
 				String entry = request.getParameter("entry");
 				System.out.println(entry);
 				
