@@ -1,0 +1,54 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.main_image {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1280px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.item_info_price {
+    position: relative;
+    right: 100px;
+    margin-top: 200px;
+}
+
+.item_info_price p {
+    font-size: large;
+}
+
+/* 썸네일과 가격정보 */
+
+hr {
+    margin: 100px 0px 100px 0px;
+}
+
+/* 장바구니, 구매하기 */
+
+.cart_buy input:nth-child(1) {
+    margin-right: 10px;
+}
+
+/* 상세페이지 이미지 */
+
+.main_detail_page {
+    height: 2000px;
+    text-align: center;
+}
+
+.main_detail_page img {
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+
+/* 상세페이지 이미지 */
